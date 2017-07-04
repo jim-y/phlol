@@ -1,0 +1,21 @@
+$primary-50: #eceff1;
+$primary-100: #cfd8dc;
+$primary-200: #b0bec5;
+$primary-400: #78909c;
+$primary-600: #546e7a;
+$primary-700: #455a64;
+$primary-900: #263238;
+$primary-500: #607d8b; // .md-primary
+$primary-300: #90a4ae; // .md-primary.md-hue-1
+$primary-800: #37474f; // .md-primary.md-hue-2
+
+.accent-bg { background-color: #CDDC39; }
+.accent-fg { color: #CDDC39; }
+.accent-fg--dark { color: #212121; }
+.accent-fg--light { color: #FFFFFF; }
+
+.primary-bg { background-color: $primary-500; }
+.primary-bg--dark { background-color: #455A64; }
+.primary-bg--light { background-color: #CFD8DC; }
+.primary-fg { color: #FFFFFF; }
+.primary-fg--secondary { color: #757575; }

@@ -1,4 +1,4 @@
-import { FrontendPage } from './app.po';
+import { FrontendPage } from '../pages/app.po';
 
 describe('frontend App', () => {
   let page: FrontendPage;
@@ -9,6 +9,6 @@ describe('frontend App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!!');
+    expect(page.getParagraphText()).toEqual('Welcome to My First Angular app!!');
   });
 });
